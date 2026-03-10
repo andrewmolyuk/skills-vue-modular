@@ -4,6 +4,6 @@
     "dockerfile": "Dockerfile"
   },
   "mounts": [
-    "source=${localEnv:USERPROFILE}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+    "source=${localEnv:USERPROFILE}/.ssh,target=/home/dev/.ssh,type=bind,consistency=cached"
   ]
 }
