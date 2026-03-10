@@ -1,0 +1,9 @@
+{
+  "name": "skills-vue-modular",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "mounts": [
+    "source=${localEnv:USERPROFILE}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+  ]
+}
